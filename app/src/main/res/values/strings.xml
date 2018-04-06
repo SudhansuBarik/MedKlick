@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">MedKlick</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_hospital">Select Hospital</string>
+    <string name="category">Category</string>
+    <string name="department">Department</string>
+    <string name="date">Date</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string-array name="blood_group_array">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="blood_group_array2">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="blood_units">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Check Reports</item>
+        <item>Check Status</item>
+        <item>About</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Hospital names Array -->
+    <string-array name="hospital_array">
+        <item>Hi-Tech Medical College and Hospital</item>
+        <item>Ispat General Hospital</item>
+        <item>Lifeline Hospital</item>
+        <item>Shanti Memorial Hospital</item>
+        <item>Vesaj Patel Hospital</item>
+    </string-array>
+
+    <!--Departments Array-->
+    <string-array name="departments_array">
+        <item>Accident and emergency</item>
+        <item>Anaesthetics</item>
+        <item>Cardiology</item>
+        <item>Critical care</item>
+        <item>Ear, Nose and Throat</item>
+        <item>Gastroenterology</item>
+        <item>General surgery</item>
+        <item>Gynaecology</item>
+        <item>Haematology</item>
+        <item>Nephrology</item>
+        <item>Neurology</item>
+        <item>Nutrition and dietetics</item>
+        <item>Oncology</item>
+        <item>Orthopaedics</item>
+        <item>Physiotherapy</item>
+        <item>Urology</item>
+    </string-array>
+
+    <!--Wards Array -->
+    <string-array name="ward_array">
+        <item>General Ward</item>
+        <item>Male Ward</item>
+        <item>Female Ward</item>
+        <item>Children Ward</item>
+        <item>C.C.U.</item>
+        <item>I.C.U.</item>
+    </string-array>
+
+    <!--Other Services Spinner Items-->
+    <string-array name="vaccination">
+        <item>Cholera</item>
+        <item>Dengue</item>
+        <item>Diptheria</item>
+        <item>Hepatitis-A</item>
+        <item>Hepatitis-B</item>
+        <item>Hepatitis-E</item>
+        <item>Hib</item>
+        <item>HPV</item>
+        <item>Influenza</item>
+        <item>Malaria</item>
+        <item>Measles</item>
+        <item>Mumps</item>
+        <item>Pertussis</item>
+        <item>Rabis</item>
+        <item>Tetanus</item>
+        <item>Typhoid</item>
+        <item>Tuberculosis</item>
+    </string-array>
+
+    <string-array name="tests">
+        <item>PTT(Partial Thromboplastin Time)</item>
+        <item>BMO(Basic Metabolic Panel)</item>
+        <item>CBC (Complete Blood Count)</item>
+        <item>Urine Test</item>
+        <item>Allergy Test</item>
+        <item>Blood Sugar Test</item>
+        <item>Tumor Marker</item>
+        <item>Immunity Test</item>
+        <item>Hormone Test</item>
+        <item>Genetic Test</item>
+        <item>Haematology Test</item>
+    </string-array>
+
+    <string-array name="diagonisis">
+        <item>Ultra Sound</item>
+        <item>CT Scan</item>
+        <item>X-Ray</item>
+        <item>IVP (Intravenous Pyleography</item>
+        <item>Cholangiography</item>
+    </string-array>
+
+    <string-array name="problem_areas">
+        <item>Skin, Hair and Nails</item>
+        <item>Men\'s Sexual Health</item>
+        <item>Women\'s Sexual Health</item>
+        <item>Bones and Joint Problem</item>
+        <item>Physiotherapy</item>
+        <item>Mental Health</item>
+        <item>Digestive Problems</item>
+        <item>Kidney and Urinary Problems</item>
+        <item>Tooth and Mouth</item>
+        <item>Ear, Nose, Throat</item>
+        <item>Child Health</item>
+        <item>Brain and Nerves</item>
+        <item>Diet and Weight Problems</item>
+        <item>General Health</item>
+        <item>Eye and Vision</item>
+        <item>Breathing Problems</item>
+        <item>Diabetes and Hormonal Problems</item>
+        <item>Heart</item>
+        <item>Cancer</item>
+        <item>I have some other problem...</item>
+    </string-array>
+
+    <string name="terms_and_privacy_policy">
+The Mavericks built the MedKlick app to provide hospital services. This SERVICE is provided by Mavericks at no cost
+        and is intended for use as is.
+\n\nThis page is used to inform the users regarding our policies with the collection, use, and disclosure
+        of Personal Information if anyone decided to use our Service.
+\n\nIf you choose to use our Service, then you agree to the collection and use of information in relation
+        to this policy. The Personal Information that we collect is used for providing and improving the
+        Service. Mavericks will not use or share your information with anyone except as described in this Privacy Policy.
+\n\nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is
+        accessible at MedKlick unless otherwise defined in this Privacy Policy.
+        \n\n<b>Information Collection and Use</b>
+\n\nFor a better experience, while using our Service, we may require you to provide us with certain
+        personally identifiable information, including but not limited to Name, Email ID, Mobile Number
+        and Address. The information that we request is retained on your device and is not collected by us in any way.
+\n\nThe app does use third party services that may collect information used to identify you.
+\n\nLink to privacy policy of third party service providers used by the app:
+\n\n
+        <li><a href="https://www.google.com/policies/privacy/">Google Play Services</a></li>\n
+        <li><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></li>
+        \n\n<b>Log Data</b>
+\n\nWe want to inform you that whenever you use our Service, in a case of an error in the app we collect
+        data and information (through third party products) on your phone called Log Data. This Log Data
+        may include information such as your device Internet Protocol (“IP”) address, device name,
+        operating system version, the configuration of the app when utilizing our Service, the time and
+        date of your use of the Service, and other statistics.
+        \n\n<b>Cookies</b>
+\n\nCookies are files with small amount of data that is commonly used an anonymous unique identifier.
+        These are sent to your browser from the website that you visit and are stored on your device internal memory.
+\n\nThis Service does not use these “cookies” explicitly. However, the app may use third party code and
+        libraries that use “cookies” to collection information and to improve their services. You have
+        the option to either accept or refuse these cookies and know when a cookie is being sent to your
+        device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+        \n\n<b>Service Providers</b>
+\n\nWe may employ third-party companies and individuals due to the following reasons:
+
+<li>To facilitate our Service;</li>\n
+<li>To provide the Service on our behalf;</li>\n
+<li>To perform Service-related services; or</li>\n
+<li>To assist us in analyzing how our Service is used.</li>
+\n\nWe want to inform users of this Service that these third parties have access to your Personal Information.
+        The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to
+        disclose or use the information for any other purpose.
+        \n\n<b>Security</b>
+\n\nWe value your trust in providing us your Personal Information, thus we are striving to use commercially
+        acceptable means of protecting it. But remember that no method of transmission over the internet, or
+        method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+        \n\n<b>Links to Other Sites</b>
+\n\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed
+        to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you
+        to review the Privacy Policy of these websites. We have no control over and assume no responsibility
+        for the content, privacy policies, or practices of any third-party sites or services.
+        \n\n<b>Children’s Privacy</b>
+\n\nThese Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable
+        information from children under 13. In the case we discover that a child under 13 has provided us with
+        personal information, we immediately delete that from our servers. If you are a parent or guardian and
+        you are aware that your child has provided us with personal information, please contact us so that we
+        will be able to take necessary actions.
+        \n\n<b>Changes to This Privacy Policy</b>
+\n\nWe may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for
+        any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These
+        changes are effective immediately after they are posted on this page.
+        \n\n<b>Contact Us</b>
+\n\nIf you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at mavericks@gmail.com.
+\n\nThis privacy policy page was created at privacypolicytemplate.net and modified/generated by
+        <a href="https://app-privacy-policy-generator.firebaseapp.com/">App Privacy Policy Generator</a>.
+    </string>
+    <string name="sudhansu_name">Sudhansu Barik</string>
+    <string name="sudhansu_registration_number">1401216030</string>
+    <string name="abhijeet_name">Abhijeet Chakraborty</string>
+    <string name="abhijeet_registration_number">1401216081</string>
+    <string name="reema_name">Reema Gupta</string>
+    <string name="reema_registration_number">1401216024</string>
+    <string name="doctor_a">Dr. Arpan</string>
+    <string name="doctor_b">Dr. Basu</string>
+    <string name="doctor_c">Dr. Chakraborty</string>
+    <string name="doctor_d">Dr. Diwakar</string>
+    <string name="fee_a">Rs. 250</string>
+    <string name="fee_b">Rs. 250</string>
+    <string name="fee_c">Rs. 250</string>
+    <string name="fee_d">Rs. 250</string>
+
+    <string name="about_medklick">
+        <b>MedKlick</b> aims at improving the healthcare facility of Rourkela by making them easily available
+        to the people of the city. It is a medical services application for people looking for healthcare services.
+        Using MedKlick, one will be able to check the availability of doctor, take an appointment, find the
+        best fit doctor on the basis of specialization, can check the availability of beds in hospitals,
+        place a request for blood, find different ambulances available in the city, find the contact details
+        of different hospitals around the city, can access the health reports, can ask for consultancy
+        in case of emergency, and many more&#8230; This will be a boon to all the private as well as government
+        hospitals. This will reduce the physical efforts and will also be time saving for patients.
+    </string>
+
+    <string-array name="payMode">
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+    </string-array>
+    <string name="doctor_appointment"><u>Doctor\'s Appointment</u></string>
+    <string name="blood_request"><u>Blood Request Details</u></string>
+    <string name="query"><u>Query</u></string>
+</resources>

@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.maverick.medklick.fragments.CheckReportsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="You can check your Medical Reports here once you have consulted a doctor or booked for any medical tests through MedKlick."
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</FrameLayout>

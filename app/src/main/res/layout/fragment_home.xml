@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.maverick.medklick.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true" />-->
+
+        <!--<com.viewpagerindicator.CirclePageIndicator-->
+        <!--android:id="@+id/page_indicator"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="bottom"-->
+        <!--android:padding="10dp"-->
+        <!--app:centered="true"-->
+        <!--app:fillColor="#df0623"-->
+        <!--app:snap="false" />-->
+        <!--</RelativeLayout>-->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <FrameLayout
+                    android:id="@+id/find_doctor"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/doctor"
+                        android:text="Find a Doctor" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/find_bed"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/bed"
+                        android:text="Find a Bed" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/request_homecare"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/homecare"
+                        android:text="Request Homecare" />
+                </FrameLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <FrameLayout
+                    android:id="@+id/donate_blood"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/donate_blood"
+                        android:text="Donate Blood" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/request_blood"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/request_blood"
+                        android:text="Request Blood" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/find_ambulance"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/ambulance"
+                        android:text="Find an Ambulance" />
+                </FrameLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow>
+
+                <FrameLayout
+                    android:id="@+id/contact_hospital"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/hospital"
+                        android:text="Contact Hospital" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/post_query"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/post_a_query"
+                        android:text="Post a Query" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <FrameLayout
+                    android:id="@+id/other_services"
+                    style="@style/Services_Frame_Layout"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:visibility="invisible">
+
+                    <TextView
+                        style="@style/Services_TextView"
+                        android:drawablePadding="16dp"
+                        android:drawableTop="@drawable/other_services"
+                        android:text="Other Services" />
+                </FrameLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

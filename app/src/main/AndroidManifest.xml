@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maverick.medklick">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.FindDoctorActivity"
+            android:label="Find a Doctor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.FindBedActivity"
+            android:label="Find a Bed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RequestHomecareActivity"
+            android:label="Request Homecare">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.DonateBloodActivity"
+            android:label="Donate Blood">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RequestBloodActivity"
+            android:label="Request Blood">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.FindAmbulanceActivity"
+            android:label="Find an Ambulance">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ContactHospitalActivity"
+            android:label="Contact Hospital">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.PostQueryActivity"
+            android:label="Post a Query">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OtherServicesActivity"
+            android:label="Other Services">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.MainActivity" />
+        </activity>
+        <activity android:name=".activities.RegisterAccountActivity" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="My Profile" />
+        <activity
+            android:name=".activities.TermsAndPolicyActivity"
+            android:label="Terms and Privacy Policy" />
+        <activity
+            android:name=".activities.HelpAndSupportActivity"
+            android:label="Help and Support" />
+        <activity
+            android:name=".activities.RateActivity"
+            android:label="Rate MedKlick" />
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:label="Change Password" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:label="Forgot Password">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.LoginActivity" />
+        </activity>
+        <activity android:name=".activities.CreateProfileActivity" />
+        <activity
+            android:name=".activities.SelectDoctorActivity"
+            android:label="Select Doctor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.FindDoctorActivity" />
+        </activity>
+        <activity android:name=".activities.MakePaymentActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maverick.medklick.activities.SelectDoctorActivity" />
+        </activity>
+    </application>
+
+</manifest>

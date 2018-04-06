@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "284919405063",
+    "firebase_url": "https://medklick-80a93.firebaseio.com",
+    "project_id": "medklick-80a93",
+    "storage_bucket": "medklick-80a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284919405063:android:d132fc574f656034",
+        "android_client_info": {
+          "package_name": "com.maverick.medklick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284919405063-adkrotog6vh26qt3cuq5ra9f8d5akuo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maverick.medklick",
+            "certificate_hash": "bcbeb0e4329684b5cd7503d7bf27f32ff146f5de"
+          }
+        },
+        {
+          "client_id": "284919405063-gicoi1r6uvkg2dhvvmekr6q7o8uajtar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHWSts5HS0jDHpgON6a4nOwnz0x88LXWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284919405063-gicoi1r6uvkg2dhvvmekr6q7o8uajtar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
